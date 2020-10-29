@@ -1,4 +1,4 @@
-# Cahiers Jupyter pour le didacticiel ouvert "Productivité de l'eau et comptabilité de l'eau à l'aide de WaPOR"
+# Carnets Jupyter pour le didacticiel ouvert "Productivité de l'eau et comptabilité de l'eau à l'aide de WaPOR"
 ![](http://www.fao.org/typo3temp/pics/93f49ce381.jpg)
 ## [Voir le cours complet sur IHE Delft OpenCourseWare](https://ocw.un-ihe.org/course/view.php?id=117&section=0)
 
@@ -24,7 +24,7 @@ Auteurs: Bich Tran, Abebe Chukalla, Solomon Seyoum
     * Obtenir raster et couper raster
     * Obtenir raster de productivité de l'eau 
 
-### Exécuter des cahiers
+### Exécuter des carnets 
 
 **Étape 1**: Téléchargez le fichier zip du référentiel et décompressez 
 
