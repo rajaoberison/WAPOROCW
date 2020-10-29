@@ -1,8 +1,8 @@
-# Jupyter notebooks for 'Water Productivity and Water Accounting using WaPOR' open courseware
+# Cahiers Jupyter pour le didacticiel ouvert "Productivité de l'eau et comptabilité de l'eau à l'aide de WaPOR"
 ![](http://www.fao.org/typo3temp/pics/93f49ce381.jpg)
-## [See the full course on IHE Delft OpenCourseWare](https://ocw.un-ihe.org/course/view.php?id=92&section=0)
+## [Voir le cours complet sur IHE Delft OpenCourseWare](https://ocw.un-ihe.org/course/view.php?id=117&section=0)
 
-Authors: Bich Tran, Abebe Chukalla, Solomon Seyoum
+Auteurs: Bich Tran, Abebe Chukalla, Solomon Seyoum
 
 <html>
   <head>
@@ -10,46 +10,46 @@ Authors: Bich Tran, Abebe Chukalla, Solomon Seyoum
   </head>
 </html>
 
-## Contents
+## Contenu
 
-### Module 1: Introduction and Usage
+### Module 1: Introduction et Usage
 
-- Unit 4 WaPOR spatial data analysis using Python packages
-    * Download WaPOR raster data
-    * Clip and resample
-    * Raster calculation
-- Unit 5 WaPOR API
-    * Get catalog and available data table
-    * Get point and area time-series
-    * Get raster and crop raster
-    * Get custom Water Productivity raster
+- Unité 4 Analyse de données spatiales de WaPOR à l’aide de Python 
+    * Télécharger les données raster WaPOR
+    * Couper et rééchantillonner
+    * Calcul raster
+- Unité 5 WaPOR API
+    * Obtenir le catalogue et le tableau de données disponibles
+    * Obtenir des séries chronologiques de points et de zones
+    * Obtenir raster et couper raster
+    * Obtenir raster de productivité de l'eau 
 
-### Run notebooks
+### Exécuter des cahiers
 
-**Step 1**: Download repository zipfile and unzip 
+**Étape 1**: Téléchargez le fichier zip du référentiel et décompressez 
 
-OR
+OU
 
-Clone in Git Bash ([Git](https://git-scm.com/) needs to be installed)
+Cloner dans Git Bash ([Git](https://git-scm.com/) doit être installé)
 
     >>> git clone https://github.com/wateraccounting/WAPOROCW.git
 
 
-**Step 2**: Open Anaconda prompt, change directory to folder **..\WAPOROCW\notebooks**
+**Étape 2**: Ouvrez Anaconda Prompt, changez de répertoire en dossier **..\WAPOROCW\notebooks**
 
     >>> cd ..PATH..\WAPOROCW\notebooks
     
-**Step 3**: Create a new environment from environment.yml file
+**Étape 3**: Créer un nouvel environnement à partir du fichier environment.yml
 
     >>> conda env create
     
 ![](./create_env.PNG)
 
-**Step 4**: Then activate environment with required packages
+**Étape 4**: Ensuite, activez l'environnement avec les packages requis
 
     >>> conda activate waporocw
   
-**Step 5**: Start jupyter notebook
+**Étape 5**: Commencer jupyter notebook
 
     >>> jupyter notebook
     
