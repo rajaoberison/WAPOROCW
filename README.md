@@ -16,13 +16,13 @@ Auteurs: Bich Tran, Abebe Chukalla, Solomon Seyoum
 
 - Unité 4 Analyse de données spatiales de WaPOR à l’aide de Python 
     * Télécharger les données raster WaPOR
-    * Couper et rééchantillonner
-    * Calcul raster
+    * Découper et échantillonner
+    * Calcul de raster
 - Unité 5 WaPOR API
     * Obtenir le catalogue et le tableau de données disponibles
-    * Obtenir des séries chronologiques de points et de zones
-    * Obtenir raster et couper raster
-    * Obtenir raster de productivité de l'eau 
+    * Obtenir des séries temporelles de points et de zones 
+    * Obtenir et découper des rasters
+    * Obtenir des rasters de productivité de l'eau sur critères personnalisés
 
 ### Exécuter des Jupyter notebooks 
 
@@ -35,7 +35,7 @@ Cloner dans Git Bash ([Git](https://git-scm.com/) doit être installé)
     >>> git clone https://github.com/wateraccounting/WAPOROCW.git
 
 
-**Étape 2**: Ouvrez Anaconda Prompt, changez de répertoire en dossier **..\WAPOROCW\notebooks**
+**Étape 2**: Ouvrez Anaconda Prompt, changez de répertoire pour le dossier **..\WAPOROCW\notebooks**
 
     >>> cd ..PATH..\WAPOROCW\notebooks
     
